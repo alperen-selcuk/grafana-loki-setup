@@ -20,4 +20,4 @@ Loki's job is to collect the logs from Promtail and forward them to Grafana.
 # 4. Validate the logs on Grafana:
 Login to Grafana by below port-forwarding: 
 
-    kubectl port-forward service/prod-grafana -n monitoring 3000:8
+    kubectl port-forward service/prod-grafana -n monitoring 3000:80
